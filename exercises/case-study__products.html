@@ -22,7 +22,7 @@
     </div>
 {% endfor %}
 
-<nav class="pagination pagination_product">
+<nav class="pagination pagination__product">
     {% for page in pagination %}
         <a href="{{ page.get_absolute_url }}" class="pagination__anchor">
             {{ page.title }}

@@ -2,7 +2,7 @@
 
 {% for card in cards %}
     <section class="card
-        {% if card.style.dark %} card_inverse{% endif %}"
+        {% if card.style.dark %} card--inverse{% endif %}"
         {% if card.background %}
             style="background-image:url({{ card.background }});"
         {% endif %}
